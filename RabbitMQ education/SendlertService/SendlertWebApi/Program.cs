@@ -111,4 +111,7 @@ using (var scope = app.Services.CreateScope())
 
 app.MapControllers();
 
+app.MapPrometheusScrapingEndpoint();
+app.MapGet("/", () => "Hello Observability: Tracing + Metrics!");
+
 app.Run();
