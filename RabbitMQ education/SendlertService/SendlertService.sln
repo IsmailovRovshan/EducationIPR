@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendlertWebApi", "SendlertWebApi\SendlertWebApi.csproj", "{BE5D389D-50EF-4D42-89C8-74033A401563}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D86F7167-BD4A-4E6C-9BEA-4FB49A1EAA5A} = {D86F7167-BD4A-4E6C-9BEA-4FB49A1EAA5A}
+		{FE4C6128-E744-44F0-8FC4-4745A4189B42} = {FE4C6128-E744-44F0-8FC4-4745A4189B42}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dal", "Dal\Dal.csproj", "{3C0C6E23-B01C-4975-A274-2C62454CA1EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{D86F7167-BD4A-4E6C-9BEA-4FB49A1EAA5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{FE4C6128-E744-44F0-8FC4-4745A4189B42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Contracts", "Services.Contracts\Services.Contracts.csproj", "{C6708D3F-382C-4753-9929-D531C49887AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.env = .env
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE5D389D-50EF-4D42-89C8-74033A401563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5D389D-50EF-4D42-89C8-74033A401563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5D389D-50EF-4D42-89C8-74033A401563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5D389D-50EF-4D42-89C8-74033A401563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C0C6E23-B01C-4975-A274-2C62454CA1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C0C6E23-B01C-4975-A274-2C62454CA1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C0C6E23-B01C-4975-A274-2C62454CA1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C0C6E23-B01C-4975-A274-2C62454CA1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86F7167-BD4A-4E6C-9BEA-4FB49A1EAA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86F7167-BD4A-4E6C-9BEA-4FB49A1EAA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86F7167-BD4A-4E6C-9BEA-4FB49A1EAA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86F7167-BD4A-4E6C-9BEA-4FB49A1EAA5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE4C6128-E744-44F0-8FC4-4745A4189B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE4C6128-E744-44F0-8FC4-4745A4189B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE4C6128-E744-44F0-8FC4-4745A4189B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE4C6128-E744-44F0-8FC4-4745A4189B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6708D3F-382C-4753-9929-D531C49887AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6708D3F-382C-4753-9929-D531C49887AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6708D3F-382C-4753-9929-D531C49887AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6708D3F-382C-4753-9929-D531C49887AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BD4E74B-89CB-4A76-B9B3-4FCA2B5C39BD}
+	EndGlobalSection
+EndGlobal
